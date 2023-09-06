@@ -1,0 +1,9 @@
+.mainimage img{
+    width: 100%;
+    height: 500px;
+    filter: brightness(40%);
+    position: relative;
+  display: inline-block;
+
+  }
+

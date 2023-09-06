@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="../IMG/PRUEBA-ICON.png" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SERVICIOS</title>
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.js"
+      integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+      crossorigin="anonymous"
+    ></script>
+    <!--BOOTSTRAP Y LINKS-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    />
+
+    <!--CUSTOM LINKS-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../CSS/stylesservicios.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <!--JAVASCRIPT-->
+    <script src="../JAVASCRIPT/maquinaescribir.js"></script>
+    <script src="../JAVASCRIPT/scrollnavbarcontacto.js"></script>
+    <script src="../JAVASCRIPT/slider.js"></script>
+    <script src="../JAVASCRIPT/expandimage.js"></script>
+    <script src="../JAVASCRIPT/formulario.js"></script>
+    <script src="../JAVASCRIPT/carrouselservicios.js"></script>
+    <script src="../JAVASCRIPT/fadeinservices.js"></script>
+    <script src="../JAVASCRIPT/carouselservicios.js"></script>
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <header id="header" class="sticky-top">
+    <div class="header-top">
+      <div id="phoneandemailheader">
+        <ul id="header-contact">
+          <li>
+            <img src="../img/phoneheader.png" id="phoneheader" alt="" />
+            <span class="number fs-7" id="tifheader">+525545033846</span>
+          </li>
+          <li>
+            <img src="../img/emailheader.png" id="emailheader" alt="" />
+            <span class="email fs-7">arcotechosfereda@gmail.com</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <!--BODY-->
+  <body>
+    <div class="contenedor-flex">
+      <!--NAVBAR-->
+      <nav
+        class="navbar navbar-expand-lg navbar-transparentContact fixed-top"
+        id="navmain"
+      >
+        <div class="container-fluid w-30 mx-auto">
+          <img
+            src="../IMG/FEREDA/FEREDA-BLANCO-LOGO.png"
+            alt=""
+            class="m-0 p-0 navbar-brand logo-fixed"
+            id="logonavbar"
+          />
+          <button
+            id="btnnavbar"
+            class="navbar-toggler ms-auto"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  style="color: white"
+                  id="navl1"
+                  aria-current="page"
+                  href="../HTML/index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  style="color: white"
+                  id="navl2"
+                  href="../HTML/contacto.html"
+                  >Contacto</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="navl3"
+                  style="color: white"
+                  href="../HTML/servicios.html"
+                  >Servicios</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="navl4"
+                  style="color: white"
+                  href="../HTML/galeria.html"
+                  >Galeria</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="navl5"
+                  style="color: white"
+                  href="../HTML/admins.html"
+                  >ADM</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <nav
+        class="navbar navbar-expand-lg navbar-transparentContact fixed-top"
+        id="navmainmov"
+      >
+        <div class="container-fluid w-30 mx-auto">
+          <img
+            src="../IMG/FEREDA/FEREDA-LOGO.png"
+            alt=""
+            class="m-0 p-0 navbar-brand logo-fixed"
+            id="logonavbar"
+          />
+          <button
+            id="btnnavbar"
+            class="navbar-toggler ms-auto"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  style="color: white"
+                  id="navl1"
+                  aria-current="page"
+                  href="../HTML/index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  style="color: white"
+                  id="navl2"
+                  href="../HTML/contacto.html"
+                  >Contacto</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="navl3"
+                  style="color: white"
+                  href="../HTML/servicios.html"
+                  >Servicios</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="navl4"
+                  style="color: white"
+                  href="../HTML/galeria.html"
+                  >Galeria</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="navl5" href="../HTML/admins.html"
+                  >ADM</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="mainimage">
+        <img src="../IMG/FEREDA/IMG_20210128_130532_HDR.jpg" alt="" />
+        <div class="texto">Variedad de servicios</div>
+        <p class="pmainimg">
+          Brindamos servicios de calidad, adaptados a tus necesidades. Confía en
+          nuestro equipo experto para cumplir tus objetivos.
+        </p>
+      </div>
+      <div>
+        <br /><br />
+        <h3 style="align-items: center; text-align: center">
+          Servicios FEREDA
+        </h3>
+        <h6 style="align-items: center; text-align: center">
+          En Fereda, ofrecemos una amplia gama de servicios de alta calidad a
+          los mejores precios disponibles.
+        </h6>
+      </div>
+      <div class="video-container">
+        <iframe
+          width="760"
+          height="515"
+          src="https://www.youtube.com/embed/0F_bV_W1bYQ"
+          title="FEREDA"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div class="div-arcos">
+        <img src="../IMG/FEREDA/solutions.png" alt="Imagen" class="img-left" />
+        <div class="text-right">
+          <h6>Servicios FEREDA</h6>
+          <h4 style="font-weight: bold">¿Qué servicios ofrecemos?</h4>
+          <p>
+            <br />
+            FEREDA es tu solución completa para servicios de techos y
+            arcotechos. Nuestro equipo altamente capacitado se encarga de la
+            instalación de techos y arcotechos de alta calidad, brindando
+            resultados duraderos y estéticamente atractivos.
+
+            <br /><br />
+            Además, ofrecemos servicios de mantenimiento y asesoramiento en
+            proyectos para asegurar que tus estructuras estén en óptimas
+            condiciones. Confía en nosotros para recibir un servicio excepcional
+            y resultados confiables.
+          </p>
+        </div>
+      </div>
+      <br /><br />
+      <div class="container-info-pc">
+        <div class="card card-info" style="width: 30rem">
+          <img class="image" src="../IMG/FEREDA/dostipos.png" alt="Imagen 1" />
+          <h5>Colocación de techos y arcotechos</h5>
+          <p>
+            Brindamos servicios especializados en la colocación de techos y
+            arcotechos, ofreciendo soluciones a medida para proyectos de diversa
+            envergadura. Nuestro equipo de expertos altamente capacitados cuenta
+            con una amplia experiencia en la industria, lo que nos permite
+            garantizar resultados de la más alta calidad.
+            <br /><br />
+            Trabajamos en estrecha colaboración con nuestros clientes para
+            entender sus necesidades específicas y ofrecer soluciones
+            personalizadas que se adapten a sus requerimientos. En cada
+            proyecto, nos enfocamos en la excelencia y en cumplir los plazos
+            establecidos, asegurando una instalación precisa y duradera. onfía
+            en nosotros para la colocación de techos y arcotechos que brinden
+            protección, funcionalidad y estética excepcionales a tu
+            construcción.
+          </p>
+        </div>
+        <div class="card card-info" style="width: 30rem">
+          <img
+            class="image"
+            src="../IMG/FEREDA/IMG-20200711-WA0005.jpg"
+            alt="Imagen 2"
+          />
+          <h5>Mantenimiento preventivo y correctivo</h5>
+          <p>
+            Garantizamos la durabilidad y el rendimiento óptimo de tus techos y
+            arcotechos. Contamos con un equipo de especialistas altamente
+            capacitados que se encargan de realizar inspecciones periódicas y
+            llevar a cabo las acciones necesarias para prevenir y solucionar
+            cualquier problema que pueda surgir.
+            <br /><br />
+            Mediante el mantenimiento preventivo, nos anticipamos a posibles
+            desgastes, filtraciones o daños, realizando labores de limpieza,
+            sellado, reemplazo de piezas y ajustes necesarios. Asimismo, en caso
+            de identificar algún inconveniente, nuestro equipo de mantenimiento
+            correctivo se encarga de intervenir de manera rápida y eficiente
+            para solucionar cualquier falla y restaurar la funcionalidad de tus
+            techos.
+          </p>
+        </div>
+      </div>
+      <br /><br />
+      <div id="carouselExample" class="carousel">
+        <script
+          src="https://code.jquery.com/jquery-3.7.0.min.js"
+          integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+          crossorigin="anonymous"
+        ></script>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="card" style="width: 25rem">
+              <img
+                src="../IMG/FEREDA/dostipos.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Variedad de techos</h5>
+                <p class="card-text">
+                  Explora nuestra variedad de techos de calidad en FEREDA.
+                  Tenemos opciones para todos los estilos y necesidades.
+                  Nuestros techos garantizan resistencia y durabilidad. Confía
+                  en nosotros para soluciones personalizadas y resultados
+                  impecables.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card" style="width: 25rem">
+              <img
+                src="../IMG/FEREDA/BKQE4724.JPG"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Mantenimiento: Preventivo y Correctivo
+                </h5>
+                <p class="card-text">
+                  En FEREDA, entendemos la importancia de mantener tus techos en
+                  óptimas condiciones. Por eso, ofrecemos servicios completos de
+                  mantenimiento tanto preventivo como correctivo para garantizar
+                  la durabilidad y la funcionalidad de tus techos.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card" style="width: 25rem">
+              <img
+                src="../IMG/FEREDA/FEREDA-LOGO.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Precios competitivos</h5>
+                <p class="card-text">
+                  Nos enorgullece ofrecer precios altamente competitivos en
+                  todos nuestros servicios. Sabemos que obtener un excelente
+                  valor por tu dinero es importante, por lo que nos esforzamos
+                  por brindar una combinación perfecta de calidad y precio.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card" style="width: 25rem">
+              <img
+                src="../IMG/FEREDA/obradibujo.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Tecnología de vanguardia</h5>
+                <p class="card-text">
+                  nos mantenemos a la vanguardia al utilizar tecnología de
+                  última generación en todos nuestros servicios. Nuestro
+                  compromiso con la innovación nos permite ofrecer resultados
+                  excepcionales y superar las expectativas de nuestros clientes.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card" style="width: 25rem">
+              <img
+                src="../IMG/FEREDA/img160723.jpeg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Calidad excepcional</h5>
+                <p class="card-text">
+                  Nuestros servicios de arcotechos y techados destacan por su
+                  calidad excepcional. Nos comprometemos a proporcionar
+                  soluciones duraderas y confiables, utilizando materiales de
+                  primera calidad y mano de obra experta.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card" style="width: 25rem">
+              <img
+                src="../IMG/FEREDA/MEXICO.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Alcance nacional</h5>
+                <p class="card-text">
+                  Llevamos nuestra experiencia y compromiso a lo largo de todo
+                  México, ofreciendo los mejores precios y una calidad
+                  excepcional en servicios de techos. Ya sea en las grandes
+                  ciudades o en áreas remotas. Trabajamos en toda la república
+                  mexicana.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="card-movil" style="width: 18rem; justify-content: center">
+      <img src="../IMG/FEREDA/dostipos.png" class="card-img-top" alt="..." />
+      <div class="card-body-info-movil">
+        <h5 class="card-title-info-movil">Colocación de techos y arcotechos</h5>
+        <p class="card-text-info-movil">
+          Brindamos servicios especializados en la colocación de techos y
+          arcotechos, ofreciendo soluciones a medida para proyectos de diversa
+          envergadura. Nuestro equipo de expertos altamente capacitados cuenta
+          con una amplia experiencia en la industria, lo que nos permite
+          garantizar resultados de la más alta calidad.
+        </p>
+      </div>
+    </div>
+    <div class="card-movil" style="width: 18rem">
+      <img src="../IMG/FEREDA/dostipos.png" class="card-img-top" alt="..." />
+      <div class="card-body-info-movil">
+        <h5 class="card-title-info-movil">
+          Mantenimiento preventivo y correctivo
+        </h5>
+        <p class="card-text-info-movil">
+          En FEREDA, entendemos la importancia de mantener tus techos en óptimas
+          condiciones. Por eso, ofrecemos servicios completos de mantenimiento
+          tanto preventivo como correctivo para garantizar la durabilidad y la
+          funcionalidad de tus techos.
+        </p>
+      </div>
+    </div>
+    <br /><br /><br />
+    <div class="redes">
+      <ul>
+        <li>
+          <a href="tel:+525545033846"><i class="fas fa-phone icon"></i></a>
+        </li>
+        <li>
+          <a href="mailto:arcotechosfereda@gmail.com"
+            ><i class="fas fa-envelope icon"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://api.whatsapp.com/send?phone=5545033846"
+            ><i class="fab fa-whatsapp icon"></i
+          ></a>
+        </li>
+      </ul>
+    </div>
+  </body>
+  <br /><br /><br /><br /><br /><br /><br /><br /><br />
+  <footer style="background-color: rgb(20, 20, 20)">
+    <img
+      class="footfereda"
+      src="../IMG/FEREDA/LOGO-BLANCO-HORIZONTAL-1.png"
+      alt=""
+    />
+  </footer>
+</html>
